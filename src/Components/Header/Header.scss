@@ -1,0 +1,379 @@
+.header {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 270px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__heading__logo {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: left;
+    color: #fff;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 39px;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__link {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #707070;
+
+    &:hover {
+      color: #306ef7;
+    }
+
+    &:active {
+      color: #306ef7;
+    }
+  }
+
+  &__select {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: left;
+  }
+
+  &__button {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: #707070;
+    border: none;
+  }
+
+  &__botton {
+    width: 80px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: #306ef7;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #306ef7;
+      opacity: 0.8;
+    }
+
+    &:active {
+      background-color: #306ef7;
+      opacity: 0.6;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .header {
+    .container {
+      gap: 250px;
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .header {
+    .container {
+      gap: 230px;
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .header {
+    .container {
+      gap: 200px;
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  .header {
+    .container {
+      gap: 180px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .header {
+    .container {
+      gap: 160px;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .header {
+    .container {
+      gap: 130px;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .header {
+    .container {
+      gap: 100px;
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .header {
+    .container {
+      gap: 80px;
+    }
+  }
+}
+
+@media (max-width: 885px) {
+  .header {
+    .container {
+      gap: 60px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .header__nav {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 790px) {
+  .header {
+    .container {
+      gap: 40px;
+    }
+
+    &__nav {
+      gap: 10px;
+    }
+
+    &__inner {
+      gap: 10px;
+    }
+  }
+}
+
+@media (max-width: 790px) {
+  .header {
+    .container {
+      gap: 100px;
+    }
+
+    &__info {
+      gap: 5px;
+    }
+
+    &__logo {
+      width: 30px;
+      height: 30px;
+    }
+
+    &__heading__logo {
+      font-size: 20px;
+    }
+
+    &__link {
+      font-size: 12px;
+    }
+
+    &__select {
+      font-size: 10px;
+    }
+
+    &__button {
+      font-size: 12px;
+    }
+
+    &__botton {
+      font-size: 12px;
+      width: 65px;
+      height: 30px;
+      padding: 0 10px;
+    }
+  }
+}
+
+@media (max-width: 714px) {
+  .header {
+    .container {
+      gap: 70px;
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .header {
+    .container {
+      gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .header {
+    .container {
+      gap: 30px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .header {
+    .container {
+      gap: 60px;
+    }
+
+    &__info {
+      gap: 3px;
+    }
+
+    &__logo {
+      width: 20px;
+      height: 20px;
+    }
+
+    &__heading__logo {
+      font-size: 16px;
+    }
+
+    &__link {
+      font-size: 10px;
+    }
+
+    &__select {
+      font-size: 8px;
+    }
+
+    &__button {
+      font-size: 10px;
+    }
+
+    &__botton {
+      font-size: 10px;
+      width: 45px;
+      height: 25px;
+      padding: 0 5px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    .container {
+      gap: 40px;
+    }
+
+    &__inner {
+      gap: 7px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    .container {
+      gap: 30px;
+    }
+
+    &__inner {
+      gap: 5px;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .header {
+    .container {
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    .container {
+      margin-top: -20px;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    &__info {
+      gap: 10px;
+    }
+
+    &__logo {
+      width: 30px;
+      height: 30px;
+    }
+
+    &__heading__logo {
+      font-size: 20px;
+    }
+
+    &__nav {
+      margin-top: -30px;
+      gap: 30px;
+    }
+
+    &__link {
+      font-size: 12px;
+    }
+
+    &__inner {
+      margin-top: -10px;
+      gap: 20px;
+    }
+
+    &__select {
+      font-size: 12px;
+    }
+
+    &__button {
+      font-size: 12px;
+    }
+
+    &__botton {
+      font-size: 12px;
+      width: 60px;
+      height: 30px;
+      padding: 0 9px;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.footer {
+    .container {
+        display: flex;
+        gap: 750px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .footer {
+        .container {
+            gap: 700px;
+        }
+    }
+}
+
+@media (max-width: 1175px) {
+    .footer {
+        .container {
+            gap: 650px;
+        }
+    }
+}
+
+@media (max-width: 1125px) {
+    .footer {
+        .container {
+            gap: 600px;
+        }
+    }
+}
+
+@media (max-width: 1070px) {
+    .footer {
+        .container {
+            gap: 550px;
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .footer {
+        .container {
+            gap: 500px;
+        }
+    }
+}
+
+@media (max-width: 970px) {
+    .footer {
+        .container {
+            gap: 450px;
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    .footer {
+        .container {
+            gap: 400px;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .footer {
+        .container {
+            gap: 350px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .footer {
+        .container {
+            gap: 300px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        .container {
+            gap: 250px;
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .footer {
+        .container {
+            gap: 300px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .footer {
+        .container {
+            gap: 250px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        .container {
+            gap: 200px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .footer {
+        .container {
+            gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+a, li {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family:  'Roboto', sans-serif;
+  background-color: black;
+}
+
+.container {
+  max-width: 1640px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
