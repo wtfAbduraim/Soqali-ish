@@ -1,0 +1,159 @@
+.hero2__heading {
+  font-family: "Roboto";
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 112px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero2__title {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero2__text {
+  margin-top: -40px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(112, 112, 112, 1);
+}
+
+.hero2__list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  margin-left: 80px;
+}
+
+@media (max-width: 1136px) {
+  .hero2__list {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1069px) {
+  .hero2__list {
+    margin-left: -20px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero2__heading {
+    font-size: 70px;
+  }
+
+  .hero2__list {
+    margin-left: -30px;
+    gap: 10px;
+  }
+
+  .hero2__title {
+    font-size: 26px;
+  }
+
+  .hero2__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 876px) {
+  .hero2__heading {
+    font-size: 64px;
+  }
+
+  .hero2__list {
+    margin-left: -30px;
+    gap: 20px;
+  }
+
+  .hero2__title {
+    font-size: 22px;
+  }
+
+  .hero2__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 795px) {
+  .hero2__heading {
+    font-size: 56px;
+  }
+
+  .hero2__list {
+    margin-left: -30px;
+    gap: 20px;
+  }
+
+  .hero2__title {
+    font-size: 20px;
+  }
+
+  .hero2__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 690px) {
+  .hero2__heading {
+    font-size: 50px;
+  }
+
+  .hero2__list {
+    margin-top: -50px;
+    margin-left: -30px;
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .hero2__title {
+    font-size: 20px;
+  }
+
+  .hero2__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 614px) {
+  .hero2__heading {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 545px) {
+  .hero2__heading {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 465px) {
+  .hero2__heading {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero2__heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 371px) {
+    .hero2__heading {
+      font-size: 25px;
+    }
+  }

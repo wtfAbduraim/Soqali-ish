@@ -1,0 +1,61 @@
+.hero7 {
+  .container {
+    text-align: center;
+  }
+}
+
+.hero7__heading {
+  margin-top: -40px;
+  font-family: "Roboto";
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 150px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero7__text {
+  margin-top: -130px;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+    .hero7__heading {
+        font-size: 60px;
+    }
+
+    .hero7__text {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 525px) {
+    .hero7__heading {
+        font-size: 50px;
+    }
+
+    .hero7__text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 388px) {
+    .hero7__heading {
+        font-size: 40px;
+    }
+
+    .hero7__text {
+        font-size: 16px;
+    }
+
+    .hero__number {
+        font-size: 8px;
+    }
+}

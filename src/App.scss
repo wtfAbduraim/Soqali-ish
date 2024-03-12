@@ -28,13 +28,14 @@
   font-style: normal;
 }
 
-a, li {
+a,
+li {
   list-style: none;
   text-decoration: none;
 }
 
 body {
-  font-family:  'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: black;
 }
 
@@ -43,4 +44,8 @@ body {
   width: 100%;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.page {
+  color: #fff;
 }

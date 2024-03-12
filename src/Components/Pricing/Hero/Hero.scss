@@ -1,3 +1,422 @@
 .hero {
-    color: #fff;
+  .container {
+    text-align: center;
+    margin-bottom: 150px;
+  }
+}
+
+.hero__heading {
+  font-family: "Roboto";
+  font-size: 112px;
+  font-weight: 700;
+  line-height: 168px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+
+  &-2 {
+    font-family: "Roboto";
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 168px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(254, 103, 131, 0.945);
+    margin-top: -150px;
+  }
+}
+
+.hero__info {
+  text-align: center;
+  width: 694px;
+  margin-left: 260px;
+}
+
+.hero__title {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero__flex {
+  display: flex;
+  gap: 10px;
+  margin-left: 380px;
+}
+
+.hero__button {
+  cursor: pointer;
+  width: 213px;
+  height: 50px;
+  background: rgba(50, 108, 249, 1);
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+
+  &:hover {
+    background-color: #306ef7;
+    opacity: 0.8;
+  }
+
+  &:active {
+    background-color: #306ef7;
+    opacity: 0.6;
+  }
+}
+
+.hero__botton {
+  cursor: pointer;
+  background: black;
+  width: 213px;
+  height: 50px;
+  border: 1px solid rgba(112, 112, 112, 1);
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(112, 112, 112, 1);
+  border-radius: 6px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.hero__text {
+  margin-left: 370px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(112, 112, 112, 1);
+}
+
+.hero__number {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1163px) {
+  .hero__heading {
+    font-size: 100px;
+
+    &-2 {
+      font-size: 98px;
+    }
+  }
+
+  .hero__info {
+    margin-left: 200px;
+  }
+
+  .hero__flex {
+    margin-left: 250px;
+  }
+
+  .hero__text {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .hero__heading {
+    font-size: 94px;
+
+    &-2 {
+      font-size: 90px;
+    }
+  }
+
+  .hero__info {
+    margin-left: 190px;
+  }
+
+  .hero__flex {
+    margin-left: 250px;
+  }
+
+  .hero__text {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 955px) {
+  .hero__heading {
+    font-size: 88px;
+
+    &-2 {
+      font-size: 84px;
+    }
+  }
+
+  .hero__info {
+    margin-left: 120px;
+  }
+
+  .hero__flex {
+    margin-left: 250px;
+  }
+
+  .hero__text {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 892px) {
+  .hero__heading {
+    font-size: 80px;
+
+    &-2 {
+      font-size: 78px;
+    }
+  }
+
+  .hero__info {
+    margin-left: 100px;
+  }
+
+  .hero__flex {
+    margin-left: 220px;
+  }
+
+  .hero__text {
+    margin-left: 220px;
+  }
+}
+
+@media (max-width: 830px) {
+  .hero__heading {
+    font-size: 70px;
+
+    &-2 {
+      font-size: 68px;
+    }
+  }
+
+  .hero__info {
+    margin-left: 30px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+  }
+
+  .hero__flex {
+    margin-left: 170px;
+  }
+
+  .hero__text {
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 730px) {
+  .hero__heading {
+    font-size: 60px;
+
+    &-2 {
+      font-size: 58px;
+    }
+  }
+
+  .hero__info {
+    margin-left: -20px;
+  }
+
+  .hero__title {
+    font-size: 26px;
+  }
+
+  .hero__flex {
+    margin-left: 100px;
+  }
+
+  .hero__text {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 630px) {
+  .hero__heading {
+    font-size: 50px;
+
+    &-2 {
+      font-size: 48px;
+    }
+  }
+
+  .hero__info {
+    width: 500px;
+    margin-left: -10px;
+  }
+
+  .hero__title {
+    font-size: 20px;
+  }
+
+  .hero__flex {
+    margin-left: 100px;
+  }
+
+  .hero__text {
+    margin-left: 100px;
+  }
+
+  .hero__button {
+    width: 160px;
+    height: auto;
+  }
+
+  .hero__botton {
+    width: 150px;
+    height: auto;
+  }
+
+  .hero__text {
+    font-size: 22px;
+  }
+
+  .hero__number {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 530px) {
+  .hero__heading {
+    font-size: 40px;
+
+    &-2 {
+      font-size: 38px;
+    }
+  }
+
+  .hero__info {
+    width: 400px;
+    margin-left: -10px;
+  }
+
+  .hero__title {
+    font-size: 20px;
+  }
+
+  .hero__flex {
+    margin-left: 50px;
+  }
+
+  .hero__text {
+    margin-left: 10px;
+  }
+
+  .hero__button {
+    width: 160px;
+    height: auto;
+  }
+
+  .hero__botton {
+    width: 150px;
+    height: auto;
+  }
+
+  .hero__text {
+    font-size: 20px;
+  }
+
+  .hero__number {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero__heading {
+    font-size: 32px;
+
+    &-2 {
+      font-size: 30px;
+    }
+  }
+
+  .hero__info {
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .hero__title {
+    font-size: 20px;
+  }
+
+  .hero__flex {
+    margin-left: 50px;
+  }
+
+  .hero__text {
+    margin-left: 10px;
+  }
+
+  .hero__button {
+    width: 150px;
+    height: auto;
+    font-size: 18px;
+  }
+
+  .hero__botton {
+    width: 130px;
+    height: auto;
+    font-size: 18px;
+  }
+
+  .hero__text {
+    font-size: 18px;
+  }
+
+  .hero__number {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero__heading {
+    font-size: 30px;
+
+    &-2 {
+      font-size: 28px;
+    }
+  }
+
+  .hero__info {
+    margin-left: 0;
+  }
+
+  .hero__flex {
+    margin-left: 0;
+  }
+
+  .hero__text {
+    margin-left: 0;
+  }
 }
