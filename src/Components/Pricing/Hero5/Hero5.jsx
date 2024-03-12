@@ -7,7 +7,7 @@ function Hero5() {
     <div>
       <section className="hero3">
         <div className="container">
-          {/* <div className="hero3__info">
+          <div className="hero3__info">
             <h3 className="hero3__step">STEP 3</h3>
             <h2 className="hero3__heading">Send Emails & Text Messages</h2>
             <p className="hero3__text-1">
@@ -15,7 +15,7 @@ function Hero5() {
               audience directly over email and text massage.
             </p>
             <button className="hero3__button">View Avaliable Sources</button>
-          </div> */}
+          </div>
 
           <ul className="hero3__list">
             <li className="hero3__item">

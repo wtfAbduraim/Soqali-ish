@@ -7,14 +7,14 @@ function Hero4() {
     <div>
       <section className="hero4">
         <div className="container">
-          {/* <div className="hero3__info">
+          <div className="hero3__info">
             <h3 className="hero3__step">STEP 2</h3>
             <h2 className="hero3__heading">Share Your Homepage</h2>
             <p className="hero3__text-1">
               Share your Wavium homepage link with your followers, and we'll
               handle the rest.
             </p>
-          </div> */}
+          </div>
 
           <div className="hero4__info">
             <img

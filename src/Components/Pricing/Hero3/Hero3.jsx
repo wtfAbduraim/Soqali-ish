@@ -7,7 +7,7 @@ function Hero3() {
     <div>
       <section className="hero3">
         <div className="container">
-          {/* <div className="hero3__info">
+          <div className="hero3__info">
             <h3 className="hero3__step">STEP 1</h3>
             <h2 className="hero3__heading">Connect Your Content</h2>
             <p className="hero3__text-1">
@@ -15,9 +15,9 @@ function Hero3() {
               automatically updates whenever you create anywhere online.
             </p>
             <button className="hero3__button">View Avaliable Sources</button>
-          </div> */}
+          </div>
 
-          {/* <ul className="hero3__list">
+          <ul className="hero3__list">
             <li className="hero3__item">
               <h5 className="hero3__title">Your Homepage</h5>
               <h3 className="hero3__comment ">Your Content.</h3>
@@ -41,7 +41,7 @@ function Hero3() {
             <li className="hero3__item-2">
               <img className="hero3__img" src={Step} alt="img" width={590} height={500}/>
             </li>
-          </ul> */}
+          </ul>
         </div>
       </section>
     </div>
